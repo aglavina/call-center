@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JPS7IBIzEeeU-cwVP0U6lQ" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_KDmF4BIzEeeU-cwVP0U6lQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_Q0LB0BIzEeeU-cwVP0U6lQ" name="generated">
+    <packagedElement xmi:type="uml:Package" xmi:id="_RAe_gBIzEeeU-cwVP0U6lQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_RAfmkBIzEeeU-cwVP0U6lQ" name="aglavina">
+        <packagedElement xmi:type="uml:Package" xmi:id="_RAgNoBIzEeeU-cwVP0U6lQ" name="model">
+          <packagedElement xmi:type="uml:Class" xmi:id="_RAltMBIzEeeU-cwVP0U6lQ" name="Call" visibility="public">
+            <generalization xmi:type="uml:Generalization" xmi:id="_RAowgBIzEeeU-cwVP0U6lQ" general="_RAoJcBIzEeeU-cwVP0U6lQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_RAveMBIzEeeU-cwVP0U6lQ" name="duration" visibility="private" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_RAx6cBIzEeeU-cwVP0U6lQ" name="finished" visibility="private" type="_RAwsUBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_RCoUkBIzEeeU-cwVP0U6lQ" name="isFinished" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_REGUMBIzEeeU-cwVP0U6lQ" type="_RAwsUBIzEeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_RFCvYBIzEeeU-cwVP0U6lQ" name="setFinished" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_RFFLoBIzEeeU-cwVP0U6lQ" name="finished" type="_RAwsUBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_RFIO8BIzEeeU-cwVP0U6lQ" name="getDuration" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_RFKEIBIzEeeU-cwVP0U6lQ" type="_RAuQEBIzEeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_RFOVkBIzEeeU-cwVP0U6lQ" name="setDuration" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_RFQx0BIzEeeU-cwVP0U6lQ" name="duration" type="_RAuQEBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_RFTOEBIzEeeU-cwVP0U6lQ" name="addDuration" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_RFVDQBIzEeeU-cwVP0U6lQ" name="interval" type="_RAuQEBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RAoJcBIzEeeU-cwVP0U6lQ" name="Entity"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_RAtB8BIzEeeU-cwVP0U6lQ" name="datatype">
+    <packagedElement xmi:type="uml:Package" xmi:id="_RAtpABIzEeeU-cwVP0U6lQ" name="datatype">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_RAuQEBIzEeeU-cwVP0U6lQ" name="Integer"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_RAwsUBIzEeeU-cwVP0U6lQ" name="Boolean"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_J5i8kBI0EeeU-cwVP0U6lQ" name="src.main.java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_J5vJ0BI0EeeU-cwVP0U6lQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_J5wX8BI0EeeU-cwVP0U6lQ" name="aglavina">
+        <packagedElement xmi:type="uml:Package" xmi:id="_J5xmEBI0EeeU-cwVP0U6lQ" name="model">
+          <packagedElement xmi:type="uml:Class" xmi:id="_J51QcBI0EeeU-cwVP0U6lQ" name="Call" visibility="public">
+            <generalization xmi:type="uml:Generalization" xmi:id="_J5460BI0EeeU-cwVP0U6lQ" general="_J53ssBI0EeeU-cwVP0U6lQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_J56wABI0EeeU-cwVP0U6lQ" name="duration" visibility="private" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_J58lMBI0EeeU-cwVP0U6lQ" name="finished" visibility="private" type="_RAwsUBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_J5-aYBI0EeeU-cwVP0U6lQ" name="isFinished" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6APkBI0EeeU-cwVP0U6lQ" type="_RAwsUBIzEeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_J6BdsBI0EeeU-cwVP0U6lQ" name="setFinished" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6Cr0BI0EeeU-cwVP0U6lQ" name="finished" type="_RAwsUBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_J6DS4BI0EeeU-cwVP0U6lQ" name="getDuration" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6D58BI0EeeU-cwVP0U6lQ" type="_RAuQEBIzEeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_J6EhABI0EeeU-cwVP0U6lQ" name="setDuration" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6FvIBI0EeeU-cwVP0U6lQ" name="duration" type="_RAuQEBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_J6GWMBI0EeeU-cwVP0U6lQ" name="addDuration" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_J6HkUBI0EeeU-cwVP0U6lQ" name="interval" type="_RAuQEBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_J53ssBI0EeeU-cwVP0U6lQ" name="Entity" visibility="public" isAbstract="true">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_WsUEcBI0EeeU-cwVP0U6lQ" name="id" visibility="private" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_WsbZMBI0EeeU-cwVP0U6lQ" name="getId" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_WsecgBI0EeeU-cwVP0U6lQ" type="_RAuQEBIzEeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_WsfDkBI0EeeU-cwVP0U6lQ" name="setId" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Wsg4wBI0EeeU-cwVP0U6lQ" name="id" type="_RAuQEBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ZzuhUBI0EeeU-cwVP0U6lQ" name="Operator" visibility="public">
+            <generalization xmi:type="uml:Generalization" xmi:id="_Zzw9kBI0EeeU-cwVP0U6lQ" general="_J53ssBI0EeeU-cwVP0U6lQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Z0GUwBI0EeeU-cwVP0U6lQ" name="type" visibility="private" type="_Z0EfkBI0EeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Z0IJ8BI0EeeU-cwVP0U6lQ" name="currentCall" visibility="private" type="_J51QcBI0EeeU-cwVP0U6lQ" isUnique="false"/>
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Z0AOIBI0EeeU-cwVP0U6lQ" name="Operator implements Comparable" client="_ZzuhUBI0EeeU-cwVP0U6lQ" supplier="_ZzxkoBI0EeeU-cwVP0U6lQ" contract="_ZzxkoBI0EeeU-cwVP0U6lQ"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0J_IBI0EeeU-cwVP0U6lQ" name="isAvailable" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0MbYBI0EeeU-cwVP0U6lQ" type="_RAwsUBIzEeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0NpgBI0EeeU-cwVP0U6lQ" name="getType" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0O3oBI0EeeU-cwVP0U6lQ" type="_Z0EfkBI0EeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0QFwBI0EeeU-cwVP0U6lQ" name="setType" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0RT4BI0EeeU-cwVP0U6lQ" name="type" type="_Z0EfkBI0EeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0SiABI0EeeU-cwVP0U6lQ" name="compareTo" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0TJEBI0EeeU-cwVP0U6lQ" type="_RAuQEBIzEeeU-cwVP0U6lQ" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0WMYBI0EeeU-cwVP0U6lQ" name="arg0" type="_ZzuhUBI0EeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0YBkBI0EeeU-cwVP0U6lQ" name="getCurrentCall" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0YooBI0EeeU-cwVP0U6lQ" type="_J51QcBI0EeeU-cwVP0U6lQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0ZPsBI0EeeU-cwVP0U6lQ" name="setCurrentCall" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z0ad0BI0EeeU-cwVP0U6lQ" name="currentCall" type="_J51QcBI0EeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_ZzxkoBI0EeeU-cwVP0U6lQ" name="Comparable"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Z0EfkBI0EeeU-cwVP0U6lQ" name="EmployeeType"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_b1-3gBI1EeeU-cwVP0U6lQ" name="service">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_b2DwABI1EeeU-cwVP0U6lQ" name="Callback" visibility="public">
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_b2GzUBI1EeeU-cwVP0U6lQ" name="complete">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_b2HaYBI1EeeU-cwVP0U6lQ" name="operator" type="_ZzuhUBI0EeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_dmBRwBI1EeeU-cwVP0U6lQ" name="CallProcessor" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_dmFjMBI1EeeU-cwVP0U6lQ" name="operator" visibility="private" isLeaf="true" type="_ZzuhUBI0EeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_dmGxUBI1EeeU-cwVP0U6lQ" name="callback" visibility="private" isLeaf="true" type="_b2DwABI1EeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_dmHYYBI1EeeU-cwVP0U6lQ" name="INTERVAL" visibility="private" isLeaf="true" isStatic="true" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_dmEVEBI1EeeU-cwVP0U6lQ" name="CallProcessor implements Runnable" client="_dmBRwBI1EeeU-cwVP0U6lQ" supplier="_dmDuABI1EeeU-cwVP0U6lQ" contract="_dmDuABI1EeeU-cwVP0U6lQ"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_dmJNkBI1EeeU-cwVP0U6lQ" name="run" visibility="public"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_dmKbsBI1EeeU-cwVP0U6lQ" name="checkCallIsFinished" visibility="private"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t0S3MBI1EeeU-cwVP0U6lQ" name="Dispatcher" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_t0VTcBI1EeeU-cwVP0U6lQ" name="MAX_THREADS" visibility="private" isLeaf="true" isStatic="true" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_t0XIoBI1EeeU-cwVP0U6lQ" name="availableOperators" visibility="private" type="_t0WhkRI1EeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_t0YWwBI1EeeU-cwVP0U6lQ" name="executor" visibility="private" type="_t0XvsBI1EeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_t0Y90BI1EeeU-cwVP0U6lQ" name="usedThreads" visibility="private" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_t0aL8BI1EeeU-cwVP0U6lQ" name="syncObject" visibility="private" isStatic="true" type="_RAuQEBIzEeeU-cwVP0U6lQ" isUnique="false"/>
+            <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_t0UsYBI1EeeU-cwVP0U6lQ" name="Dispatcher implements Callback" client="_t0S3MBI1EeeU-cwVP0U6lQ" supplier="_b2DwABI1EeeU-cwVP0U6lQ" contract="_b2DwABI1EeeU-cwVP0U6lQ"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_t0azABI1EeeU-cwVP0U6lQ" name="addOperator" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_t0baEBI1EeeU-cwVP0U6lQ" name="operator" type="_ZzuhUBI0EeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_t0cBIBI1EeeU-cwVP0U6lQ" name="dispatchCall" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_t0coMBI1EeeU-cwVP0U6lQ" name="call" type="_RAltMBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_t0dPQBI1EeeU-cwVP0U6lQ" name="syncDispatchCall" visibility="private">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_t0d2UBI1EeeU-cwVP0U6lQ" name="call" type="_RAltMBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_t0edYBI1EeeU-cwVP0U6lQ" name="processCall" visibility="private">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_t0frgBI1EeeU-cwVP0U6lQ" name="call" type="_RAltMBIzEeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_t0gSkBI1EeeU-cwVP0U6lQ" name="complete" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_t0g5oBI1EeeU-cwVP0U6lQ" name="operator" type="_ZzuhUBI0EeeU-cwVP0U6lQ"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_dmCf4BI1EeeU-cwVP0U6lQ" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_dmDG8BI1EeeU-cwVP0U6lQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dmDG8RI1EeeU-cwVP0U6lQ" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_dmDuABI1EeeU-cwVP0U6lQ" name="Runnable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_t0V6gBI1EeeU-cwVP0U6lQ" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t0WhkBI1EeeU-cwVP0U6lQ" name="concurrent">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t0WhkRI1EeeU-cwVP0U6lQ" name="BlockingQueue"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t0XvsBI1EeeU-cwVP0U6lQ" name="ExecutorService"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
