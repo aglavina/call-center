@@ -1,6 +1,6 @@
-# Call Center - Threads Excercise
+# Call Center - Threads Exercise
 
-### prerequisitos
+### prerequisites
 
  * Java 7 or superior is needed
  * Maven for packaging the jar 
@@ -8,7 +8,7 @@
 
 ### Documentation
 
- * A diagram class and a sequence diagram are included
+ * A class diagram and a sequence diagram are included
 
 ### Extras
 
