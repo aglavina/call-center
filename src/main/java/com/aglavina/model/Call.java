@@ -27,13 +27,4 @@ public class Call extends Entity {
 		return isFinished() ? (finishDuration.getTime() - startDuration.getTime()) / 1000 :
 		 (new Date().getTime() - startDuration.getTime()) / 1000 ;		
 	}
-
-	public void setDuration(int duration) {
-		this.duration = duration;
-	}
-
-	public void addDuration(int interval) {
-		setDuration(getDuration()+interval);
-		logger.debug("call id: " + getId() + " current duration: " + getDuration() / 1000 + "s ");
-	}
 }
