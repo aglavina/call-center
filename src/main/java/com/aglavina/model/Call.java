@@ -3,9 +3,12 @@ package com.aglavina.model;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Date;
+
 public class Call extends Entity {
 
-	private int duration;
+	private Date startDuration = new Date();
+	private Date finishDuration;
 	private boolean finished;
 	private static Logger logger = LogManager.getLogger(Call.class);
 	
@@ -14,11 +17,15 @@ public class Call extends Entity {
 	}
 
 	public void setFinished(boolean finished) {
+		if (finished && !this.finished) {
+			finishDuration = new Date();
+		}
 		this.finished = finished;
 	}
 
 	public int getDuration() {
-		return duration;
+		return isFinished() ? (finishDuration.getTime() - startDuration.getTime()) / 1000 :
+		 (new Date().getTime() - startDuration.getTime()) / 1000 ;		
 	}
 
 	public void setDuration(int duration) {
