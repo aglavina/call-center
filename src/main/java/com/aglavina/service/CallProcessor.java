@@ -27,7 +27,6 @@ public class CallProcessor implements Runnable {
 	private void checkCallIsFinished() throws InterruptedException {
 		for (; !operator.getCurrentCall().isFinished();) {
 			Thread.sleep(INTERVAL);
-			operator.getCurrentCall().addDuration(INTERVAL);
 		}
 	}
 	
